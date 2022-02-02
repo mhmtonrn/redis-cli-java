@@ -3,7 +3,6 @@ package com.softengine.redisclijava.service;
 import com.softengine.redisclijava.model.Model;
 import com.softengine.redisclijava.repository.RedisRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 @Service

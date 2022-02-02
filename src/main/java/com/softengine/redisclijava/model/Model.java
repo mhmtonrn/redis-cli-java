@@ -15,4 +15,9 @@ public class Model implements Serializable {
     @Id
     private String key;
     private String value;
+
+    @Override
+    public String toString() {
+        return "{" + "'" + key +   "'='" + value + "'}";
+    }
 }
